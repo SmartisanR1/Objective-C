@@ -7,12 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69567C3D2BB2FF23004293BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69567C3C2BB2FF23004293BB /* main.m */; };
+		69567C482BB3075C004293BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69567C472BB3075C004293BB /* main.m */; };
 		69817D372BB067CC00DCFCA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69817D362BB067CC00DCFCA1 /* main.m */; };
 		69FBB62E2BB1ACDC008D88F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69FBB62D2BB1ACDC008D88F1 /* main.m */; };
 		69FBB6392BB1B241008D88F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69FBB6382BB1B241008D88F1 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		69567C382BB2FF23004293BB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		69567C432BB3075C004293BB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		69817D312BB067CC00DCFCA1 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -43,6 +63,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		69567C3A2BB2FF23004293BB /* 04-方法的声明实现和调用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "04-方法的声明实现和调用"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69567C3C2BB2FF23004293BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		69567C452BB3075C004293BB /* 05-Day01作业 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "05-Day01作业"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69567C472BB3075C004293BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		69817D332BB067CC00DCFCA1 /* Day01-OC基础语法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Day01-OC基础语法"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69817D362BB067CC00DCFCA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		69FBB62B2BB1ACDC008D88F1 /* 02-OC和C的对比 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "02-OC和C的对比"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +76,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		69567C372BB2FF23004293BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69567C422BB3075C004293BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		69817D302BB067CC00DCFCA1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -76,12 +114,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		69567C3B2BB2FF23004293BB /* 04-方法的声明实现和调用 */ = {
+			isa = PBXGroup;
+			children = (
+				69567C3C2BB2FF23004293BB /* main.m */,
+			);
+			path = "04-方法的声明实现和调用";
+			sourceTree = "<group>";
+		};
+		69567C462BB3075C004293BB /* 05-Day01作业 */ = {
+			isa = PBXGroup;
+			children = (
+				69567C472BB3075C004293BB /* main.m */,
+			);
+			path = "05-Day01作业";
+			sourceTree = "<group>";
+		};
 		69817D2A2BB067CC00DCFCA1 = {
 			isa = PBXGroup;
 			children = (
 				69817D352BB067CC00DCFCA1 /* Day01-OC基础语法 */,
 				69FBB62C2BB1ACDC008D88F1 /* 02-OC和C的对比 */,
 				69FBB6372BB1B241008D88F1 /* 03-面向过程与面向对象 */,
+				69567C3B2BB2FF23004293BB /* 04-方法的声明实现和调用 */,
+				69567C462BB3075C004293BB /* 05-Day01作业 */,
 				69817D342BB067CC00DCFCA1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +148,8 @@
 				69817D332BB067CC00DCFCA1 /* Day01-OC基础语法 */,
 				69FBB62B2BB1ACDC008D88F1 /* 02-OC和C的对比 */,
 				69FBB6362BB1B241008D88F1 /* 03-面向过程与面向对象 */,
+				69567C3A2BB2FF23004293BB /* 04-方法的声明实现和调用 */,
+				69567C452BB3075C004293BB /* 05-Day01作业 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,6 +181,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		69567C392BB2FF23004293BB /* 04-方法的声明实现和调用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69567C402BB2FF23004293BB /* Build configuration list for PBXNativeTarget "04-方法的声明实现和调用" */;
+			buildPhases = (
+				69567C362BB2FF23004293BB /* Sources */,
+				69567C372BB2FF23004293BB /* Frameworks */,
+				69567C382BB2FF23004293BB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "04-方法的声明实现和调用";
+			productName = "04-方法的声明实现和调用";
+			productReference = 69567C3A2BB2FF23004293BB /* 04-方法的声明实现和调用 */;
+			productType = "com.apple.product-type.tool";
+		};
+		69567C442BB3075C004293BB /* 05-Day01作业 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69567C492BB3075C004293BB /* Build configuration list for PBXNativeTarget "05-Day01作业" */;
+			buildPhases = (
+				69567C412BB3075C004293BB /* Sources */,
+				69567C422BB3075C004293BB /* Frameworks */,
+				69567C432BB3075C004293BB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "05-Day01作业";
+			productName = "05-Day01作业";
+			productReference = 69567C452BB3075C004293BB /* 05-Day01作业 */;
+			productType = "com.apple.product-type.tool";
+		};
 		69817D322BB067CC00DCFCA1 /* Day01-OC基础语法 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 69817D3A2BB067CC00DCFCA1 /* Build configuration list for PBXNativeTarget "Day01-OC基础语法" */;
@@ -183,6 +275,12 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
+					69567C392BB2FF23004293BB = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					69567C442BB3075C004293BB = {
+						CreatedOnToolsVersion = 15.3;
+					};
 					69817D322BB067CC00DCFCA1 = {
 						CreatedOnToolsVersion = 15.3;
 					};
@@ -210,11 +308,29 @@
 				69817D322BB067CC00DCFCA1 /* Day01-OC基础语法 */,
 				69FBB62A2BB1ACDC008D88F1 /* 02-OC和C的对比 */,
 				69FBB6352BB1B241008D88F1 /* 03-面向过程与面向对象 */,
+				69567C392BB2FF23004293BB /* 04-方法的声明实现和调用 */,
+				69567C442BB3075C004293BB /* 05-Day01作业 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		69567C362BB2FF23004293BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69567C3D2BB2FF23004293BB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69567C412BB3075C004293BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69567C482BB3075C004293BB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		69817D2F2BB067CC00DCFCA1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -242,6 +358,38 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		69567C3E2BB2FF23004293BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		69567C3F2BB2FF23004293BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		69567C4A2BB3075C004293BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		69567C4B2BB3075C004293BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		69817D382BB067CC00DCFCA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -408,6 +556,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		69567C402BB2FF23004293BB /* Build configuration list for PBXNativeTarget "04-方法的声明实现和调用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69567C3E2BB2FF23004293BB /* Debug */,
+				69567C3F2BB2FF23004293BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69567C492BB3075C004293BB /* Build configuration list for PBXNativeTarget "05-Day01作业" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69567C4A2BB3075C004293BB /* Debug */,
+				69567C4B2BB3075C004293BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		69817D2E2BB067CC00DCFCA1 /* Build configuration list for PBXProject "Day01-OC基础语法" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
