@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		691420802BB46AE3008DF7C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6914207F2BB46AE3008DF7C5 /* main.m */; };
 		691420842BB46AEA008DF7C5 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 691420772BB46AA3008DF7C5 /* Person.m */; };
+		69904C872BCC18DD0009EC43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69904C862BCC18DD0009EC43 /* main.m */; };
+		69904C8D2BCC1A3C0009EC43 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 69904C8C2BCC1A3C0009EC43 /* Player.m */; };
+		69904C912BCC1EB90009EC43 /* Robot.m in Sources */ = {isa = PBXBuildFile; fileRef = 69904C902BCC1EB90009EC43 /* Robot.m */; };
+		69904C942BCC20AE0009EC43 /* Judge.m in Sources */ = {isa = PBXBuildFile; fileRef = 69904C932BCC20AE0009EC43 /* Judge.m */; };
 		69E04D7F2BB4547C00AA1820 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E04D7E2BB4547C00AA1820 /* main.m */; };
 		69E04D8C2BB4549900AA1820 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E04D8B2BB4549900AA1820 /* main.m */; };
 		69E04D972BB4630F00AA1820 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E04D962BB4630F00AA1820 /* main.m */; };
@@ -16,6 +20,15 @@
 
 /* Begin PBXCopyFilesBuildPhase section */
 		6914207B2BB46AE3008DF7C5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		69904C822BCC18DD0009EC43 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -58,6 +71,15 @@
 		691420772BB46AA3008DF7C5 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		6914207D2BB46AE3008DF7C5 /* 03-多文件开发 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "03-多文件开发"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6914207F2BB46AE3008DF7C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		69904C842BCC18DD0009EC43 /* 04-猜拳游戏 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "04-猜拳游戏"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69904C862BCC18DD0009EC43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		69904C8B2BCC1A3C0009EC43 /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		69904C8C2BCC1A3C0009EC43 /* Player.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		69904C8E2BCC1A7F0009EC43 /* FistType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FistType.h; sourceTree = "<group>"; };
+		69904C8F2BCC1EB90009EC43 /* Robot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Robot.h; sourceTree = "<group>"; };
+		69904C902BCC1EB90009EC43 /* Robot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Robot.m; sourceTree = "<group>"; };
+		69904C922BCC20AE0009EC43 /* Judge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Judge.h; sourceTree = "<group>"; };
+		69904C932BCC20AE0009EC43 /* Judge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Judge.m; sourceTree = "<group>"; };
 		69E04D7B2BB4547C00AA1820 /* Day02-类与对象 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Day02-类与对象"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69E04D7E2BB4547C00AA1820 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		69E04D892BB4549900AA1820 /* 01-对象在内存中的存储 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "01-对象在内存中的存储"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +90,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		6914207A2BB46AE3008DF7C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69904C812BCC18DD0009EC43 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -108,6 +137,21 @@
 			path = "03-多文件开发";
 			sourceTree = "<group>";
 		};
+		69904C852BCC18DD0009EC43 /* 04-猜拳游戏 */ = {
+			isa = PBXGroup;
+			children = (
+				69904C862BCC18DD0009EC43 /* main.m */,
+				69904C8B2BCC1A3C0009EC43 /* Player.h */,
+				69904C8C2BCC1A3C0009EC43 /* Player.m */,
+				69904C8E2BCC1A7F0009EC43 /* FistType.h */,
+				69904C8F2BCC1EB90009EC43 /* Robot.h */,
+				69904C902BCC1EB90009EC43 /* Robot.m */,
+				69904C922BCC20AE0009EC43 /* Judge.h */,
+				69904C932BCC20AE0009EC43 /* Judge.m */,
+			);
+			path = "04-猜拳游戏";
+			sourceTree = "<group>";
+		};
 		69E04D722BB4547C00AA1820 = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +159,7 @@
 				69E04D8A2BB4549900AA1820 /* 01-对象在内存中的存储 */,
 				69E04D952BB4630F00AA1820 /* 02-分组导航标记 */,
 				6914207E2BB46AE3008DF7C5 /* 03-多文件开发 */,
+				69904C852BCC18DD0009EC43 /* 04-猜拳游戏 */,
 				69E04D7C2BB4547C00AA1820 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -126,6 +171,7 @@
 				69E04D892BB4549900AA1820 /* 01-对象在内存中的存储 */,
 				69E04D942BB4630F00AA1820 /* 02-分组导航标记 */,
 				6914207D2BB46AE3008DF7C5 /* 03-多文件开发 */,
+				69904C842BCC18DD0009EC43 /* 04-猜拳游戏 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -172,6 +218,23 @@
 			name = "03-多文件开发";
 			productName = "03-多文件开发";
 			productReference = 6914207D2BB46AE3008DF7C5 /* 03-多文件开发 */;
+			productType = "com.apple.product-type.tool";
+		};
+		69904C832BCC18DD0009EC43 /* 04-猜拳游戏 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69904C8A2BCC18DD0009EC43 /* Build configuration list for PBXNativeTarget "04-猜拳游戏" */;
+			buildPhases = (
+				69904C802BCC18DD0009EC43 /* Sources */,
+				69904C812BCC18DD0009EC43 /* Frameworks */,
+				69904C822BCC18DD0009EC43 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "04-猜拳游戏";
+			productName = "04-猜拳游戏";
+			productReference = 69904C842BCC18DD0009EC43 /* 04-猜拳游戏 */;
 			productType = "com.apple.product-type.tool";
 		};
 		69E04D7A2BB4547C00AA1820 /* Day02-类与对象 */ = {
@@ -237,6 +300,9 @@
 					6914207C2BB46AE3008DF7C5 = {
 						CreatedOnToolsVersion = 15.3;
 					};
+					69904C832BCC18DD0009EC43 = {
+						CreatedOnToolsVersion = 15.3;
+					};
 					69E04D7A2BB4547C00AA1820 = {
 						CreatedOnToolsVersion = 15.3;
 					};
@@ -265,6 +331,7 @@
 				69E04D882BB4549900AA1820 /* 01-对象在内存中的存储 */,
 				69E04D932BB4630F00AA1820 /* 02-分组导航标记 */,
 				6914207C2BB46AE3008DF7C5 /* 03-多文件开发 */,
+				69904C832BCC18DD0009EC43 /* 04-猜拳游戏 */,
 			);
 		};
 /* End PBXProject section */
@@ -276,6 +343,17 @@
 			files = (
 				691420842BB46AEA008DF7C5 /* Person.m in Sources */,
 				691420802BB46AE3008DF7C5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69904C802BCC18DD0009EC43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69904C912BCC1EB90009EC43 /* Robot.m in Sources */,
+				69904C942BCC20AE0009EC43 /* Judge.m in Sources */,
+				69904C8D2BCC1A3C0009EC43 /* Player.m in Sources */,
+				69904C872BCC18DD0009EC43 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +393,22 @@
 			name = Debug;
 		};
 		691420832BB46AE3008DF7C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		69904C882BCC18DD0009EC43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		69904C892BCC18DD0009EC43 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -493,6 +587,15 @@
 			buildConfigurations = (
 				691420822BB46AE3008DF7C5 /* Debug */,
 				691420832BB46AE3008DF7C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69904C8A2BCC18DD0009EC43 /* Build configuration list for PBXNativeTarget "04-猜拳游戏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69904C882BCC18DD0009EC43 /* Debug */,
+				69904C892BCC18DD0009EC43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
