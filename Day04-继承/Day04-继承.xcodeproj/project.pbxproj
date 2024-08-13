@@ -9,10 +9,25 @@
 /* Begin PBXBuildFile section */
 		690417A22BED1FBF00EA9995 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 690417A12BED1FBF00EA9995 /* main.m */; };
 		690417AA2BED1FE300EA9995 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 690417A92BED1FE300EA9995 /* Person.m */; };
+		69F47AC62C6BB17600BE8CBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F47AC52C6BB17600BE8CBC /* main.m */; };
+		69F47ACC2C6BB20C00BE8CBC /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F47ACB2C6BB20C00BE8CBC /* Person.m */; };
+		69F47ACF2C6BB34200BE8CBC /* Man.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F47ACE2C6BB34200BE8CBC /* Man.m */; };
+		69F47AD22C6BB38F00BE8CBC /* FireMan.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F47AD12C6BB38F00BE8CBC /* FireMan.m */; };
+		69F47AD52C6BB3C300BE8CBC /* SuperMan.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F47AD42C6BB3C300BE8CBC /* SuperMan.m */; };
+		69F47AD82C6BB42000BE8CBC /* Killer.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F47AD72C6BB42000BE8CBC /* Killer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		6904179C2BED1FBF00EA9995 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		69F47AC12C6BB17600BE8CBC /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -28,10 +43,29 @@
 		690417A12BED1FBF00EA9995 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		690417A82BED1FE300EA9995 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		690417A92BED1FE300EA9995 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		69F47AC32C6BB17600BE8CBC /* 01-Game */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "01-Game"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69F47AC52C6BB17600BE8CBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		69F47ACA2C6BB20C00BE8CBC /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		69F47ACB2C6BB20C00BE8CBC /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		69F47ACD2C6BB34200BE8CBC /* Man.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Man.h; sourceTree = "<group>"; };
+		69F47ACE2C6BB34200BE8CBC /* Man.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Man.m; sourceTree = "<group>"; };
+		69F47AD02C6BB38F00BE8CBC /* FireMan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FireMan.h; sourceTree = "<group>"; };
+		69F47AD12C6BB38F00BE8CBC /* FireMan.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FireMan.m; sourceTree = "<group>"; };
+		69F47AD32C6BB3C300BE8CBC /* SuperMan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperMan.h; sourceTree = "<group>"; };
+		69F47AD42C6BB3C300BE8CBC /* SuperMan.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperMan.m; sourceTree = "<group>"; };
+		69F47AD62C6BB42000BE8CBC /* Killer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Killer.h; sourceTree = "<group>"; };
+		69F47AD72C6BB42000BE8CBC /* Killer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Killer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		6904179B2BED1FBF00EA9995 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69F47AC02C6BB17600BE8CBC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				690417A02BED1FBF00EA9995 /* Day04-继承 */,
+				69F47AC42C6BB17600BE8CBC /* 01-Game */,
 				6904179F2BED1FBF00EA9995 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				6904179E2BED1FBF00EA9995 /* Day04-继承 */,
+				69F47AC32C6BB17600BE8CBC /* 01-Game */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,6 +101,24 @@
 				690417A92BED1FE300EA9995 /* Person.m */,
 			);
 			path = "Day04-继承";
+			sourceTree = "<group>";
+		};
+		69F47AC42C6BB17600BE8CBC /* 01-Game */ = {
+			isa = PBXGroup;
+			children = (
+				69F47AC52C6BB17600BE8CBC /* main.m */,
+				69F47ACA2C6BB20C00BE8CBC /* Person.h */,
+				69F47ACB2C6BB20C00BE8CBC /* Person.m */,
+				69F47ACD2C6BB34200BE8CBC /* Man.h */,
+				69F47ACE2C6BB34200BE8CBC /* Man.m */,
+				69F47AD02C6BB38F00BE8CBC /* FireMan.h */,
+				69F47AD12C6BB38F00BE8CBC /* FireMan.m */,
+				69F47AD32C6BB3C300BE8CBC /* SuperMan.h */,
+				69F47AD42C6BB3C300BE8CBC /* SuperMan.m */,
+				69F47AD62C6BB42000BE8CBC /* Killer.h */,
+				69F47AD72C6BB42000BE8CBC /* Killer.m */,
+			);
+			path = "01-Game";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +141,23 @@
 			productReference = 6904179E2BED1FBF00EA9995 /* Day04-继承 */;
 			productType = "com.apple.product-type.tool";
 		};
+		69F47AC22C6BB17600BE8CBC /* 01-Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69F47AC92C6BB17600BE8CBC /* Build configuration list for PBXNativeTarget "01-Game" */;
+			buildPhases = (
+				69F47ABF2C6BB17600BE8CBC /* Sources */,
+				69F47AC02C6BB17600BE8CBC /* Frameworks */,
+				69F47AC12C6BB17600BE8CBC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "01-Game";
+			productName = "01-Game";
+			productReference = 69F47AC32C6BB17600BE8CBC /* 01-Game */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -98,6 +169,9 @@
 				TargetAttributes = {
 					6904179D2BED1FBF00EA9995 = {
 						CreatedOnToolsVersion = 15.3;
+					};
+					69F47AC22C6BB17600BE8CBC = {
+						CreatedOnToolsVersion = 15.4;
 					};
 				};
 			};
@@ -115,6 +189,7 @@
 			projectRoot = "";
 			targets = (
 				6904179D2BED1FBF00EA9995 /* Day04-继承 */,
+				69F47AC22C6BB17600BE8CBC /* 01-Game */,
 			);
 		};
 /* End PBXProject section */
@@ -126,6 +201,19 @@
 			files = (
 				690417AA2BED1FE300EA9995 /* Person.m in Sources */,
 				690417A22BED1FBF00EA9995 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69F47ABF2C6BB17600BE8CBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69F47AD52C6BB3C300BE8CBC /* SuperMan.m in Sources */,
+				69F47ACF2C6BB34200BE8CBC /* Man.m in Sources */,
+				69F47ACC2C6BB20C00BE8CBC /* Person.m in Sources */,
+				69F47AD22C6BB38F00BE8CBC /* FireMan.m in Sources */,
+				69F47AD82C6BB42000BE8CBC /* Killer.m in Sources */,
+				69F47AC62C6BB17600BE8CBC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +351,24 @@
 			};
 			name = Release;
 		};
+		69F47AC72C6BB17600BE8CBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		69F47AC82C6BB17600BE8CBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -280,6 +386,15 @@
 			buildConfigurations = (
 				690417A62BED1FBF00EA9995 /* Debug */,
 				690417A72BED1FBF00EA9995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69F47AC92C6BB17600BE8CBC /* Build configuration list for PBXNativeTarget "01-Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69F47AC72C6BB17600BE8CBC /* Debug */,
+				69F47AC82C6BB17600BE8CBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
